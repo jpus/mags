@@ -1,4 +1,4 @@
-FROM node:alpine3.22
+FROM node:20-alpine
 
 # 1. 优先安装系统依赖（保证下载和运行脚本所需的依赖就绪）
 RUN apk add --no-cache openssl curl gcompat bash
